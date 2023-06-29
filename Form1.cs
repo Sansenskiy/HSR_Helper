@@ -186,18 +186,7 @@ namespace WindowsFormsApp1
         {
             Settings.Default["License_Key"] = textBox12.Text;
             Settings.Default.Save();
-            ManagementObjectCollection mbsList = null;
-            ManagementObjectSearcher mbs = new ManagementObjectSearcher("Select * From Win32_processor");
-            mbsList = mbs.Get();
-            string id = "";
-            foreach (ManagementObject mo in mbsList)
-            {
-                id = mo["ProcessorID"].ToString();
-            }
-            ManagementObject dsk = new ManagementObject(@"win32_logicaldisk.deviceid=""c:""");
-            dsk.Get();
-            string dskid = dsk["VolumeSerialNumber"].ToString();
-            if (textBox12.Text == id + dskid)
+            if (textBox12.Text == License_Key)
             {
                 var process = Process.GetProcessesByName("StarRail").FirstOrDefault();
                 if (process == null)
