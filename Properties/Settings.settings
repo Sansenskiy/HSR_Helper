@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsFormsApp1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="License_Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Phone_Ico_TopLeft" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">226, 226, 226</Value>
+    </Setting>
+    <Setting Name="Daily_Workout_Menu" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">224, 224, 224</Value>
+    </Setting>
+    <Setting Name="Survival_Index" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">224, 224, 224</Value>
+    </Setting>
+    <Setting Name="Virtual_Universe_Button" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">18, 18, 18</Value>
+    </Setting>
+    <Setting Name="Rule_i_Button" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">WhiteSmoke</Value>
+    </Setting>
+    <Setting Name="Sepal_Gold_Button" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="Sepal_Crimson_Button" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">18, 18, 18</Value>
+    </Setting>
+    <Setting Name="Fights_Slider" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="Fight_Group_Ico" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">228, 202, 147</Value>
+    </Setting>
+    <Setting Name="Fight_Ended_Trigger" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">WhiteSmoke</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
